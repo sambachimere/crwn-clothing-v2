@@ -10,7 +10,7 @@ export const SignInContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-   width: 300px;
+   width: 100%;
   
    margin-bottom: 40px;
   }

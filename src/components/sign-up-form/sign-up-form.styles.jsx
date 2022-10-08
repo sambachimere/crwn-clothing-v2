@@ -10,6 +10,6 @@ export const SignUpContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-   width: 300px;
+   width: 100%;
   }
 `;
