@@ -25,13 +25,22 @@ import {
 
 import { Category } from '../../store/categories/category.types';
 
+// const firebaseConfig = {
+//   apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
+//   authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
+//   projectId: 'crwn-clothing-db-98d4d',
+//   storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
+//   messagingSenderId: '626766232035',
+//   appId: '1:626766232035:web:506621582dab103a4d08d6',
+// };
+
 const firebaseConfig = {
-  apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
-  authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
-  projectId: 'crwn-clothing-db-98d4d',
-  storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
-  messagingSenderId: '626766232035',
-  appId: '1:626766232035:web:506621582dab103a4d08d6',
+  apiKey: "AIzaSyAesr8KFCo3CUluHirFwpd9WKZg49nzFY8",
+  authDomain: "crwn-db-f72f5.firebaseapp.com",
+  projectId: "crwn-db-f72f5",
+  storageBucket: "crwn-db-f72f5.appspot.com",
+  messagingSenderId: "321533981626",
+  appId: "1:321533981626:web:68820cd6bf9d0e25882383",
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
