@@ -26,6 +26,11 @@ export const BaseButton = styled.button`
     color: black;
     border: 1px solid black;
   }
+
+  @media screen and (max-width: 800px) {
+    min-width: 125px;
+    padding: 0px;
+  }
 `;
 
 BaseButton.displayName = 'BaseButton';
@@ -37,6 +42,10 @@ export const GoogleSignInButton = styled(BaseButton)`
   &:hover {
     background-color: #357ae8;
     border: none;
+  }
+
+  @media screen and (max-width: 800px) {
+   padding: 0px 15px;
   }
 `;
 
@@ -62,3 +71,4 @@ export const ButtonSpinner = styled(SpinnerContainer)`
 `;
 
 ButtonSpinner.displayName = 'ButtonSpinner';
+
